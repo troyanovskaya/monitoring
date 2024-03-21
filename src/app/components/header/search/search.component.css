@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+}
+.search-img{
+  margin-top: 3px;
+  max-width: 20px;
+  height: auto;
+}
+.input{
+  height:12px;
+  font-size: 0.7em;
+  font-style: italic;
+  padding: 2px;
+}
+
+.button{
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 0px 2px;
+  margin-left: -10px;
+  background-color: rgb(37, 214, 37);
+  cursor: pointer;
+  transition: transform .2s;
+}
+.button:hover{
+  transform: scale(1.1);
+  border: 2px solid white;
+}
